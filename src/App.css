@@ -3,7 +3,6 @@ body {
   background-color: hsl(210, 46%, 95%);
   color: hsl(0, 0%, 100%);
   font-size: 13px;
-  overflow: hidden;
 }
 
 .card-section {
