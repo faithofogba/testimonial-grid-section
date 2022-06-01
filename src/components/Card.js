@@ -11,7 +11,7 @@ export default function Card(person) {
         </section>
       </div>
       <section className="card-body p-0">
-        <h5 className={person.titleClass}>{person.quoteHeader}</h5>
+        <h2 className={person.titleClass}>{person.quoteHeader}</h2>
         <p className="card-text">{person.quoteText}</p>
       </section>
     </div>
