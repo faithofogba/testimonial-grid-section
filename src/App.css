@@ -3,6 +3,7 @@ body {
   background-color: hsl(210, 46%, 95%);
   color: hsl(0, 0%, 100%);
   font-size: 13px;
+  overflow: hidden;
 }
 
 .card-section {
@@ -43,12 +44,7 @@ body {
 img {
   height: 40px;
   width: 40px;
-  /* border-radius: 50%; */
 }
-
-/* .about-user {
-  margin-left: 15px;
-} */
 
 .user-name {
   font-size: 13px;
@@ -64,11 +60,11 @@ img {
   font-size: 13px;
 }
 
-#name {
+.name {
   color:hsl(0, 0%, 50%);
 }
 
-#title {
+.title {
   color:hsl(0, 0%, 50%);
 }
 

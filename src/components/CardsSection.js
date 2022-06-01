@@ -17,7 +17,8 @@ export default function CardsSection() {
                 backgroundStyle="card card-a"
                 image={Daniel}
                 name="Daniel Clifford"
-                status="Verified Graduate"
+                nameClass="mb-0 user-name"
+                titleClass="card-title"
                 quoteHeader="I received a job offer mid-course, and the subjects I learned were current, if not more so, 
         in the company I joined. I honestly feel I got every penny's worth."
                 quoteText="“ I was an EMT for many years before I joined the bootcamp. I've been looking to make a 
@@ -32,7 +33,8 @@ export default function CardsSection() {
                 backgroundStyle="card card-b"
                 image={Jonathan}
                 name="Jonathan Walters"
-                status="Verified Graduate"
+                nameClass="mb-0 user-name"
+                titleClass="card-title"
                 quoteHeader="The team was very supportive and kept me motivated"
                 quoteText="“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
         for a big company. This was one of the best investments I've made in myself. ”"
@@ -42,11 +44,9 @@ export default function CardsSection() {
               <Card
                 backgroundStyle="card card-c"
                 image={Jeanette}
-                nameId="name"
-                statusId="status"
-                titleId="title"
+                nameClass="mb-0 user-name name"
+                titleClass="card-title title"
                 name="Jeanette Harmon"
-                status="Verified Graduate"
                 quoteHeader="An overall wonderful and rewarding experience"
                 quoteText="“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
         while doing something I love. ”"
@@ -57,7 +57,8 @@ export default function CardsSection() {
                 backgroundStyle="card card-d"
                 image={Patrick}
                 name="Patrick Abrams"
-                status="Verified Graduate"
+                nameClass="mb-0 user-name"
+                titleClass="card-title"
                 quoteHeader="Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
         learning from their experiences was easy."
                 quoteText="“ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
@@ -73,10 +74,8 @@ export default function CardsSection() {
             backgroundStyle="card card-e"
             image={Kira}
             name="Kira Whittle"
-            nameId="name"
-            statusId="status"
-            titleId="title"
-            status="Verified Graduate"
+            nameClass="mb-0 user-name name"
+            titleClass="card-title title"
             quoteHeader="Such a life-changing experience. Highly recommended!"
             quoteText="“ Before joining the bootcamp, I've never written a line of code. I needed some structure from 
         professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
